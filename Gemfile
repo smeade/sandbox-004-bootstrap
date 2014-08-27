@@ -38,6 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'bootstrap-generators', '~> 3.1.1'
+
 group :production do
   gem 'rails_12factor'
 end

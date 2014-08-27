@@ -1,0 +1,2 @@
+module BootstrappedPostsHelper
+end
