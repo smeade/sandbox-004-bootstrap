@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
 
+  root 'bootstrapped_posts#index'
   resources :bootstrapped_posts
-
-  root 'posts#index'
   resources :posts
 
 end
