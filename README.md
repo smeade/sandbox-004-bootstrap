@@ -9,6 +9,8 @@ Demonstrates:
 * root route
 * heroku deploy readiness via rails_12factor gem
 
+Heroku app [here](http://sandbox-004-bootstrap.herokuapp.com/)
+
 ## Notes
 
 ### Bootstrap
