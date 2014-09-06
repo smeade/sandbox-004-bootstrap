@@ -5,9 +5,7 @@ A Rails application to play with Bootstrap.
 Demonstrates:
 
 * Bootstrap via the bootstrap-generators gem
-* Rails scaffold
-* root route
-* heroku deploy readiness via rails_12factor gem
+* Replacing application.css with application.scss
 
 Heroku app [here](http://sandbox-004-bootstrap.herokuapp.com/)
 
@@ -21,6 +19,10 @@ Heroku app [here](http://sandbox-004-bootstrap.herokuapp.com/)
 * config.generators block required in application.rb
 * remove Rails's scaffolds.css.scss stylesheet
 * see https://github.com/decioferreira/bootstrap-generators
+
+* Use @import instead of *=require_
+  * Rename application.css to application.scss
+  * @import scss files, in proper order
 
 ### Heroku
 * The [rails_12factor gem](https://github.com/heroku/rails_12factor) is required.
